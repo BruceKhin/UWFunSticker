@@ -16,6 +16,9 @@
 		AA178BC31E8638E6006FBF7A /* UWFunStickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BC21E8638E6006FBF7A /* UWFunStickerUITests.swift */; };
 		AA178BD51E863ADC006FBF7A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA178BD41E863ADC006FBF7A /* Stickers.xcassets */; };
 		AA178BD91E863ADC006FBF7A /* UWFunStickerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA178BE31E8661CB006FBF7A /* btnSelectSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */; };
+		AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */; };
+		AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UWFunStickerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA178BD41E863ADC006FBF7A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		AA178BD61E863ADC006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectSocial.png; sourceTree = "<group>"; };
+		AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialPopupVC.swift; sourceTree = "<group>"; };
+		AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButtonCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +131,12 @@
 		AA178BA11E8638E5006FBF7A /* UWFunSticker */ = {
 			isa = PBXGroup;
 			children = (
+				AA178BE61E866493006FBF7A /* SharePopup */,
 				AA178BA21E8638E5006FBF7A /* AppDelegate.swift */,
 				AA178BA41E8638E5006FBF7A /* ViewController.swift */,
 				AA178BA61E8638E5006FBF7A /* Main.storyboard */,
 				AA178BA91E8638E5006FBF7A /* Assets.xcassets */,
+				AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */,
 				AA178BAB1E8638E5006FBF7A /* LaunchScreen.storyboard */,
 				AA178BAE1E8638E5006FBF7A /* Info.plist */,
 			);
@@ -160,6 +168,15 @@
 				AA178BD61E863ADC006FBF7A /* Info.plist */,
 			);
 			path = UWFunStickerExtension;
+			sourceTree = "<group>";
+		};
+		AA178BE61E866493006FBF7A /* SharePopup */ = {
+			isa = PBXGroup;
+			children = (
+				AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */,
+				AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */,
+			);
+			name = SharePopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA178BAD1E8638E5006FBF7A /* LaunchScreen.storyboard in Resources */,
+				AA178BE31E8661CB006FBF7A /* btnSelectSocial.png in Resources */,
 				AA178BAA1E8638E5006FBF7A /* Assets.xcassets in Resources */,
 				AA178BA81E8638E5006FBF7A /* Main.storyboard in Resources */,
 			);
@@ -330,8 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */,
 				AA178BA51E8638E5006FBF7A /* ViewController.swift in Sources */,
 				AA178BA31E8638E5006FBF7A /* AppDelegate.swift in Sources */,
+				AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
