@@ -1,0 +1,71 @@
+{
+  "stickers" : [
+    {
+      "filename" : "1.  DiverDown.sticker"
+    },
+    {
+      "filename" : "2.  Nitrox.sticker"
+    },
+    {
+      "filename" : "3.  ScubaBuddy.sticker"
+    },
+    {
+      "filename" : "4.  U:W Camera.sticker"
+    },
+    {
+      "filename" : "5.  Buddy Calendar.sticker"
+    },
+    {
+      "filename" : "6.  rib boat diving.sticker"
+    },
+    {
+      "filename" : "7. Charter Boat Diving.sticker"
+    },
+    {
+      "filename" : "8.  Wreck Diving.sticker"
+    },
+    {
+      "filename" : "9.  Reef Diving.sticker"
+    },
+    {
+      "filename" : "10.  lobster Diving 2.sticker"
+    },
+    {
+      "filename" : "11. Scuba Kitty.sticker"
+    },
+    {
+      "filename" : "12.  Scuba Doggie.sticker"
+    },
+    {
+      "filename" : "13. Scuba Gear.sticker"
+    },
+    {
+      "filename" : "14. Scuba C-Card.sticker"
+    },
+    {
+      "filename" : "15.  Shark.sticker"
+    },
+    {
+      "filename" : "16.  Scuba Tent.sticker"
+    },
+    {
+      "filename" : "22.  ScubaParrot.sticker"
+    },
+    {
+      "filename" : "22a- Scuba Parrot.sticker"
+    },
+    {
+      "filename" : "23.  Mayn Scuba Dude.sticker"
+    },
+    {
+      "filename" : "24. Divers Weights Belt.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>UWFunStickerExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>AA178BBD1E8638E6006FBF7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA178BD11E863ADC006FBF7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
