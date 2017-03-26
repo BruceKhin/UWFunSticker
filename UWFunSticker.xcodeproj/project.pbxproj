@@ -19,6 +19,7 @@
 		AA178BE31E8661CB006FBF7A /* btnSelectSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */; };
 		AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */; };
 		AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */; };
+		AA178BEA1E869EF8006FBF7A /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE91E869EF8006FBF7A /* ShareService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,10 +76,11 @@
 		AA178BC41E8638E6006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UWFunStickerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA178BD41E863ADC006FBF7A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
-		AA178BD61E863ADC006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA178BD61E863ADC006FBF7A /* StickerInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StickerInfo.plist; sourceTree = "<group>"; };
 		AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectSocial.png; sourceTree = "<group>"; };
 		AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialPopupVC.swift; sourceTree = "<group>"; };
 		AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButtonCVC.swift; sourceTree = "<group>"; };
+		AA178BE91E869EF8006FBF7A /* ShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */,
 				AA178BAB1E8638E5006FBF7A /* LaunchScreen.storyboard */,
 				AA178BAE1E8638E5006FBF7A /* Info.plist */,
+				AA178BE91E869EF8006FBF7A /* ShareService.swift */,
 			);
 			path = UWFunSticker;
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				AA178BD41E863ADC006FBF7A /* Stickers.xcassets */,
-				AA178BD61E863ADC006FBF7A /* Info.plist */,
+				AA178BD61E863ADC006FBF7A /* StickerInfo.plist */,
 			);
 			path = UWFunStickerExtension;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */,
+				AA178BEA1E869EF8006FBF7A /* ShareService.swift in Sources */,
 				AA178BA51E8638E5006FBF7A /* ViewController.swift in Sources */,
 				AA178BA31E8638E5006FBF7A /* AppDelegate.swift in Sources */,
 				AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */,
@@ -511,7 +515,7 @@
 				DEVELOPMENT_TEAM = Q9CMR7969T;
 				INFOPLIST_FILE = UWFunSticker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.UWFunSticker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -524,7 +528,7 @@
 				DEVELOPMENT_TEAM = Q9CMR7969T;
 				INFOPLIST_FILE = UWFunSticker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.UWFunSticker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -593,8 +597,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = Q9CMR7969T;
-				INFOPLIST_FILE = UWFunStickerExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.UWFunSticker.UWFunStickerExtension;
+				INFOPLIST_FILE = UWFunStickerExtension/StickerInfo.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -605,8 +609,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = Q9CMR7969T;
-				INFOPLIST_FILE = UWFunStickerExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.UWFunSticker.UWFunStickerExtension;
+				INFOPLIST_FILE = UWFunStickerExtension/StickerInfo.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -631,6 +635,7 @@
 				AA178BC91E8638E6006FBF7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA178BCA1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerTests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +644,7 @@
 				AA178BCC1E8638E6006FBF7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA178BCD1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +653,7 @@
 				AA178BCF1E8638E6006FBF7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA178BDA1E863ADC006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerExtension" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +662,7 @@
 				AA178BDC1E863ADC006FBF7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
