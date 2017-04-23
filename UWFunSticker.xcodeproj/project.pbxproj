@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA178BA31E8638E5006FBF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BA21E8638E5006FBF7A /* AppDelegate.swift */; };
-		AA178BA51E8638E5006FBF7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BA41E8638E5006FBF7A /* ViewController.swift */; };
-		AA178BA81E8638E5006FBF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA178BA61E8638E5006FBF7A /* Main.storyboard */; };
-		AA178BAA1E8638E5006FBF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA178BA91E8638E5006FBF7A /* Assets.xcassets */; };
-		AA178BAD1E8638E5006FBF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA178BAB1E8638E5006FBF7A /* LaunchScreen.storyboard */; };
-		AA178BB81E8638E6006FBF7A /* UWFunStickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BB71E8638E6006FBF7A /* UWFunStickerTests.swift */; };
-		AA178BC31E8638E6006FBF7A /* UWFunStickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BC21E8638E6006FBF7A /* UWFunStickerUITests.swift */; };
-		AA178BD51E863ADC006FBF7A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA178BD41E863ADC006FBF7A /* Stickers.xcassets */; };
-		AA178BD91E863ADC006FBF7A /* UWFunStickerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AA178BE31E8661CB006FBF7A /* btnSelectSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */; };
-		AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */; };
-		AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */; };
-		AA178BEA1E869EF8006FBF7A /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA178BE91E869EF8006FBF7A /* ShareService.swift */; };
+		AA9445011EAC648F0042F881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9445001EAC648F0042F881 /* AppDelegate.swift */; };
+		AA9445031EAC648F0042F881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9445021EAC648F0042F881 /* ViewController.swift */; };
+		AA9445061EAC648F0042F881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9445041EAC648F0042F881 /* Main.storyboard */; };
+		AA9445081EAC648F0042F881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9445071EAC648F0042F881 /* Assets.xcassets */; };
+		AA94450B1EAC648F0042F881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9445091EAC648F0042F881 /* LaunchScreen.storyboard */; };
+		AA9445161EAC648F0042F881 /* UWFunStickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9445151EAC648F0042F881 /* UWFunStickerTests.swift */; };
+		AA9445211EAC648F0042F881 /* UWFunStickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9445201EAC648F0042F881 /* UWFunStickerUITests.swift */; };
+		AA9445321EAC64EE0042F881 /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94452E1EAC64EE0042F881 /* ShareService.swift */; };
+		AA9445331EAC64EE0042F881 /* SocialButtonCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94452F1EAC64EE0042F881 /* SocialButtonCVC.swift */; };
+		AA9445341EAC64EE0042F881 /* SocialPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9445301EAC64EE0042F881 /* SocialPopupVC.swift */; };
+		AA9445371EAC65DB0042F881 /* btnSelectSocial.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9445361EAC65DB0042F881 /* btnSelectSocial.png */; };
+		AA9445411EAC6E700042F881 /* UWFunStickerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA94453A1EAC6E700042F881 /* UWFunStickerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA9445471EAC6F5B0042F881 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9445461EAC6F5B0042F881 /* Stickers.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA178BB41E8638E6006FBF7A /* PBXContainerItemProxy */ = {
+		AA9445121EAC648F0042F881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA178B971E8638E5006FBF7A /* Project object */;
+			containerPortal = AA9444F51EAC648F0042F881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA178B9E1E8638E5006FBF7A;
+			remoteGlobalIDString = AA9444FC1EAC648F0042F881;
 			remoteInfo = UWFunSticker;
 		};
-		AA178BBF1E8638E6006FBF7A /* PBXContainerItemProxy */ = {
+		AA94451D1EAC648F0042F881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA178B971E8638E5006FBF7A /* Project object */;
+			containerPortal = AA9444F51EAC648F0042F881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA178B9E1E8638E5006FBF7A;
+			remoteGlobalIDString = AA9444FC1EAC648F0042F881;
 			remoteInfo = UWFunSticker;
 		};
-		AA178BD71E863ADC006FBF7A /* PBXContainerItemProxy */ = {
+		AA94453F1EAC6E700042F881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA178B971E8638E5006FBF7A /* Project object */;
+			containerPortal = AA9444F51EAC648F0042F881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA178BD11E863ADC006FBF7A;
+			remoteGlobalIDString = AA9445391EAC6E700042F881;
 			remoteInfo = UWFunStickerExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AA178BDD1E863ADC006FBF7A /* Embed App Extensions */ = {
+		AA9445451EAC6E700042F881 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AA178BD91E863ADC006FBF7A /* UWFunStickerExtension.appex in Embed App Extensions */,
+				AA9445411EAC6E700042F881 /* UWFunStickerExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,44 +61,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AA178B9F1E8638E5006FBF7A /* UWFunSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWFunSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA178BA21E8638E5006FBF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA178BA41E8638E5006FBF7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA178BA71E8638E5006FBF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA178BA91E8638E5006FBF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA178BAC1E8638E5006FBF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AA178BAE1E8638E5006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA178BB31E8638E5006FBF7A /* UWFunStickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWFunStickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA178BB71E8638E6006FBF7A /* UWFunStickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWFunStickerTests.swift; sourceTree = "<group>"; };
-		AA178BB91E8638E6006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA178BBE1E8638E6006FBF7A /* UWFunStickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWFunStickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA178BC21E8638E6006FBF7A /* UWFunStickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWFunStickerUITests.swift; sourceTree = "<group>"; };
-		AA178BC41E8638E6006FBF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UWFunStickerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA178BD41E863ADC006FBF7A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
-		AA178BD61E863ADC006FBF7A /* StickerInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StickerInfo.plist; sourceTree = "<group>"; };
-		AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectSocial.png; sourceTree = "<group>"; };
-		AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialPopupVC.swift; sourceTree = "<group>"; };
-		AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButtonCVC.swift; sourceTree = "<group>"; };
-		AA178BE91E869EF8006FBF7A /* ShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
+		AA9444FD1EAC648F0042F881 /* UWFunSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWFunSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9445001EAC648F0042F881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9445021EAC648F0042F881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9445051EAC648F0042F881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9445071EAC648F0042F881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA94450A1EAC648F0042F881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA94450C1EAC648F0042F881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9445111EAC648F0042F881 /* UWFunStickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWFunStickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9445151EAC648F0042F881 /* UWFunStickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWFunStickerTests.swift; sourceTree = "<group>"; };
+		AA9445171EAC648F0042F881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA94451C1EAC648F0042F881 /* UWFunStickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWFunStickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9445201EAC648F0042F881 /* UWFunStickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWFunStickerUITests.swift; sourceTree = "<group>"; };
+		AA9445221EAC648F0042F881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA94452E1EAC64EE0042F881 /* ShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
+		AA94452F1EAC64EE0042F881 /* SocialButtonCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButtonCVC.swift; sourceTree = "<group>"; };
+		AA9445301EAC64EE0042F881 /* SocialPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialPopupVC.swift; sourceTree = "<group>"; };
+		AA9445361EAC65DB0042F881 /* btnSelectSocial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectSocial.png; sourceTree = "<group>"; };
+		AA94453A1EAC6E700042F881 /* UWFunStickerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UWFunStickerExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA94453E1EAC6E700042F881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9445461EAC6F5B0042F881 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA178B9C1E8638E5006FBF7A /* Frameworks */ = {
+		AA9444FA1EAC648F0042F881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BB01E8638E5006FBF7A /* Frameworks */ = {
+		AA94450E1EAC648F0042F881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BBB1E8638E6006FBF7A /* Frameworks */ = {
+		AA9445191EAC648F0042F881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,143 +108,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA178B961E8638E5006FBF7A = {
+		AA9444F41EAC648F0042F881 = {
 			isa = PBXGroup;
 			children = (
-				AA178BA11E8638E5006FBF7A /* UWFunSticker */,
-				AA178BB61E8638E6006FBF7A /* UWFunStickerTests */,
-				AA178BC11E8638E6006FBF7A /* UWFunStickerUITests */,
-				AA178BD31E863ADC006FBF7A /* UWFunStickerExtension */,
-				AA178BA01E8638E5006FBF7A /* Products */,
+				AA9444FF1EAC648F0042F881 /* UWFunSticker */,
+				AA9445141EAC648F0042F881 /* UWFunStickerTests */,
+				AA94451F1EAC648F0042F881 /* UWFunStickerUITests */,
+				AA94453B1EAC6E700042F881 /* UWFunStickerExtension */,
+				AA9444FE1EAC648F0042F881 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA178BA01E8638E5006FBF7A /* Products */ = {
+		AA9444FE1EAC648F0042F881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA178B9F1E8638E5006FBF7A /* UWFunSticker.app */,
-				AA178BB31E8638E5006FBF7A /* UWFunStickerTests.xctest */,
-				AA178BBE1E8638E6006FBF7A /* UWFunStickerUITests.xctest */,
-				AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */,
+				AA9444FD1EAC648F0042F881 /* UWFunSticker.app */,
+				AA9445111EAC648F0042F881 /* UWFunStickerTests.xctest */,
+				AA94451C1EAC648F0042F881 /* UWFunStickerUITests.xctest */,
+				AA94453A1EAC6E700042F881 /* UWFunStickerExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA178BA11E8638E5006FBF7A /* UWFunSticker */ = {
+		AA9444FF1EAC648F0042F881 /* UWFunSticker */ = {
 			isa = PBXGroup;
 			children = (
-				AA178BE61E866493006FBF7A /* SharePopup */,
-				AA178BA21E8638E5006FBF7A /* AppDelegate.swift */,
-				AA178BA41E8638E5006FBF7A /* ViewController.swift */,
-				AA178BA61E8638E5006FBF7A /* Main.storyboard */,
-				AA178BA91E8638E5006FBF7A /* Assets.xcassets */,
-				AA178BE21E8661CB006FBF7A /* btnSelectSocial.png */,
-				AA178BAB1E8638E5006FBF7A /* LaunchScreen.storyboard */,
-				AA178BAE1E8638E5006FBF7A /* Info.plist */,
-				AA178BE91E869EF8006FBF7A /* ShareService.swift */,
+				AA9445361EAC65DB0042F881 /* btnSelectSocial.png */,
+				AA94452E1EAC64EE0042F881 /* ShareService.swift */,
+				AA94452F1EAC64EE0042F881 /* SocialButtonCVC.swift */,
+				AA9445301EAC64EE0042F881 /* SocialPopupVC.swift */,
+				AA9445001EAC648F0042F881 /* AppDelegate.swift */,
+				AA9445021EAC648F0042F881 /* ViewController.swift */,
+				AA9445041EAC648F0042F881 /* Main.storyboard */,
+				AA9445071EAC648F0042F881 /* Assets.xcassets */,
+				AA9445091EAC648F0042F881 /* LaunchScreen.storyboard */,
+				AA94450C1EAC648F0042F881 /* Info.plist */,
 			);
 			path = UWFunSticker;
 			sourceTree = "<group>";
 		};
-		AA178BB61E8638E6006FBF7A /* UWFunStickerTests */ = {
+		AA9445141EAC648F0042F881 /* UWFunStickerTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA178BB71E8638E6006FBF7A /* UWFunStickerTests.swift */,
-				AA178BB91E8638E6006FBF7A /* Info.plist */,
+				AA9445151EAC648F0042F881 /* UWFunStickerTests.swift */,
+				AA9445171EAC648F0042F881 /* Info.plist */,
 			);
 			path = UWFunStickerTests;
 			sourceTree = "<group>";
 		};
-		AA178BC11E8638E6006FBF7A /* UWFunStickerUITests */ = {
+		AA94451F1EAC648F0042F881 /* UWFunStickerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AA178BC21E8638E6006FBF7A /* UWFunStickerUITests.swift */,
-				AA178BC41E8638E6006FBF7A /* Info.plist */,
+				AA9445201EAC648F0042F881 /* UWFunStickerUITests.swift */,
+				AA9445221EAC648F0042F881 /* Info.plist */,
 			);
 			path = UWFunStickerUITests;
 			sourceTree = "<group>";
 		};
-		AA178BD31E863ADC006FBF7A /* UWFunStickerExtension */ = {
+		AA94453B1EAC6E700042F881 /* UWFunStickerExtension */ = {
 			isa = PBXGroup;
 			children = (
-				AA178BD41E863ADC006FBF7A /* Stickers.xcassets */,
-				AA178BD61E863ADC006FBF7A /* StickerInfo.plist */,
+				AA9445461EAC6F5B0042F881 /* Stickers.xcassets */,
+				AA94453E1EAC6E700042F881 /* Info.plist */,
 			);
 			path = UWFunStickerExtension;
-			sourceTree = "<group>";
-		};
-		AA178BE61E866493006FBF7A /* SharePopup */ = {
-			isa = PBXGroup;
-			children = (
-				AA178BE41E86634E006FBF7A /* SocialPopupVC.swift */,
-				AA178BE71E8664C6006FBF7A /* SocialButtonCVC.swift */,
-			);
-			name = SharePopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA178B9E1E8638E5006FBF7A /* UWFunSticker */ = {
+		AA9444FC1EAC648F0042F881 /* UWFunSticker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA178BC71E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunSticker" */;
+			buildConfigurationList = AA9445251EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunSticker" */;
 			buildPhases = (
-				AA178B9B1E8638E5006FBF7A /* Sources */,
-				AA178B9C1E8638E5006FBF7A /* Frameworks */,
-				AA178B9D1E8638E5006FBF7A /* Resources */,
-				AA178BDD1E863ADC006FBF7A /* Embed App Extensions */,
+				AA9444F91EAC648F0042F881 /* Sources */,
+				AA9444FA1EAC648F0042F881 /* Frameworks */,
+				AA9444FB1EAC648F0042F881 /* Resources */,
+				AA9445451EAC6E700042F881 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA178BD81E863ADC006FBF7A /* PBXTargetDependency */,
+				AA9445401EAC6E700042F881 /* PBXTargetDependency */,
 			);
 			name = UWFunSticker;
 			productName = UWFunSticker;
-			productReference = AA178B9F1E8638E5006FBF7A /* UWFunSticker.app */;
+			productReference = AA9444FD1EAC648F0042F881 /* UWFunSticker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA178BB21E8638E5006FBF7A /* UWFunStickerTests */ = {
+		AA9445101EAC648F0042F881 /* UWFunStickerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA178BCA1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerTests" */;
+			buildConfigurationList = AA9445281EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerTests" */;
 			buildPhases = (
-				AA178BAF1E8638E5006FBF7A /* Sources */,
-				AA178BB01E8638E5006FBF7A /* Frameworks */,
-				AA178BB11E8638E5006FBF7A /* Resources */,
+				AA94450D1EAC648F0042F881 /* Sources */,
+				AA94450E1EAC648F0042F881 /* Frameworks */,
+				AA94450F1EAC648F0042F881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA178BB51E8638E6006FBF7A /* PBXTargetDependency */,
+				AA9445131EAC648F0042F881 /* PBXTargetDependency */,
 			);
 			name = UWFunStickerTests;
 			productName = UWFunStickerTests;
-			productReference = AA178BB31E8638E5006FBF7A /* UWFunStickerTests.xctest */;
+			productReference = AA9445111EAC648F0042F881 /* UWFunStickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA178BBD1E8638E6006FBF7A /* UWFunStickerUITests */ = {
+		AA94451B1EAC648F0042F881 /* UWFunStickerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA178BCD1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerUITests" */;
+			buildConfigurationList = AA94452B1EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerUITests" */;
 			buildPhases = (
-				AA178BBA1E8638E6006FBF7A /* Sources */,
-				AA178BBB1E8638E6006FBF7A /* Frameworks */,
-				AA178BBC1E8638E6006FBF7A /* Resources */,
+				AA9445181EAC648F0042F881 /* Sources */,
+				AA9445191EAC648F0042F881 /* Frameworks */,
+				AA94451A1EAC648F0042F881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA178BC01E8638E6006FBF7A /* PBXTargetDependency */,
+				AA94451E1EAC648F0042F881 /* PBXTargetDependency */,
 			);
 			name = UWFunStickerUITests;
 			productName = UWFunStickerUITests;
-			productReference = AA178BBE1E8638E6006FBF7A /* UWFunStickerUITests.xctest */;
+			productReference = AA94451C1EAC648F0042F881 /* UWFunStickerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		AA178BD11E863ADC006FBF7A /* UWFunStickerExtension */ = {
+		AA9445391EAC6E700042F881 /* UWFunStickerExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA178BDA1E863ADC006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerExtension" */;
+			buildConfigurationList = AA9445421EAC6E700042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerExtension" */;
 			buildPhases = (
-				AA178BD01E863ADC006FBF7A /* Resources */,
+				AA9445381EAC6E700042F881 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -252,44 +244,44 @@
 			);
 			name = UWFunStickerExtension;
 			productName = UWFunStickerExtension;
-			productReference = AA178BD21E863ADC006FBF7A /* UWFunStickerExtension.appex */;
+			productReference = AA94453A1EAC6E700042F881 /* UWFunStickerExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA178B971E8638E5006FBF7A /* Project object */ = {
+		AA9444F51EAC648F0042F881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Bruce Khin";
 				TargetAttributes = {
-					AA178B9E1E8638E5006FBF7A = {
+					AA9444FC1EAC648F0042F881 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q9CMR7969T;
 						ProvisioningStyle = Automatic;
 					};
-					AA178BB21E8638E5006FBF7A = {
+					AA9445101EAC648F0042F881 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q9CMR7969T;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AA178B9E1E8638E5006FBF7A;
+						TestTargetID = AA9444FC1EAC648F0042F881;
 					};
-					AA178BBD1E8638E6006FBF7A = {
+					AA94451B1EAC648F0042F881 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q9CMR7969T;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AA178B9E1E8638E5006FBF7A;
+						TestTargetID = AA9444FC1EAC648F0042F881;
 					};
-					AA178BD11E863ADC006FBF7A = {
+					AA9445391EAC6E700042F881 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q9CMR7969T;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AA178B9A1E8638E5006FBF7A /* Build configuration list for PBXProject "UWFunSticker" */;
+			buildConfigurationList = AA9444F81EAC648F0042F881 /* Build configuration list for PBXProject "UWFunSticker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -297,117 +289,117 @@
 				en,
 				Base,
 			);
-			mainGroup = AA178B961E8638E5006FBF7A;
-			productRefGroup = AA178BA01E8638E5006FBF7A /* Products */;
+			mainGroup = AA9444F41EAC648F0042F881;
+			productRefGroup = AA9444FE1EAC648F0042F881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA178B9E1E8638E5006FBF7A /* UWFunSticker */,
-				AA178BB21E8638E5006FBF7A /* UWFunStickerTests */,
-				AA178BBD1E8638E6006FBF7A /* UWFunStickerUITests */,
-				AA178BD11E863ADC006FBF7A /* UWFunStickerExtension */,
+				AA9444FC1EAC648F0042F881 /* UWFunSticker */,
+				AA9445101EAC648F0042F881 /* UWFunStickerTests */,
+				AA94451B1EAC648F0042F881 /* UWFunStickerUITests */,
+				AA9445391EAC6E700042F881 /* UWFunStickerExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA178B9D1E8638E5006FBF7A /* Resources */ = {
+		AA9444FB1EAC648F0042F881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA178BAD1E8638E5006FBF7A /* LaunchScreen.storyboard in Resources */,
-				AA178BE31E8661CB006FBF7A /* btnSelectSocial.png in Resources */,
-				AA178BAA1E8638E5006FBF7A /* Assets.xcassets in Resources */,
-				AA178BA81E8638E5006FBF7A /* Main.storyboard in Resources */,
+				AA94450B1EAC648F0042F881 /* LaunchScreen.storyboard in Resources */,
+				AA9445371EAC65DB0042F881 /* btnSelectSocial.png in Resources */,
+				AA9445081EAC648F0042F881 /* Assets.xcassets in Resources */,
+				AA9445061EAC648F0042F881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BB11E8638E5006FBF7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA178BBC1E8638E6006FBF7A /* Resources */ = {
+		AA94450F1EAC648F0042F881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BD01E863ADC006FBF7A /* Resources */ = {
+		AA94451A1EAC648F0042F881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA178BD51E863ADC006FBF7A /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9445381EAC6E700042F881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9445471EAC6F5B0042F881 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA178B9B1E8638E5006FBF7A /* Sources */ = {
+		AA9444F91EAC648F0042F881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA178BE51E86634E006FBF7A /* SocialPopupVC.swift in Sources */,
-				AA178BEA1E869EF8006FBF7A /* ShareService.swift in Sources */,
-				AA178BA51E8638E5006FBF7A /* ViewController.swift in Sources */,
-				AA178BA31E8638E5006FBF7A /* AppDelegate.swift in Sources */,
-				AA178BE81E8664C6006FBF7A /* SocialButtonCVC.swift in Sources */,
+				AA9445341EAC64EE0042F881 /* SocialPopupVC.swift in Sources */,
+				AA9445031EAC648F0042F881 /* ViewController.swift in Sources */,
+				AA9445011EAC648F0042F881 /* AppDelegate.swift in Sources */,
+				AA9445321EAC64EE0042F881 /* ShareService.swift in Sources */,
+				AA9445331EAC64EE0042F881 /* SocialButtonCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BAF1E8638E5006FBF7A /* Sources */ = {
+		AA94450D1EAC648F0042F881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA178BB81E8638E6006FBF7A /* UWFunStickerTests.swift in Sources */,
+				AA9445161EAC648F0042F881 /* UWFunStickerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA178BBA1E8638E6006FBF7A /* Sources */ = {
+		AA9445181EAC648F0042F881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA178BC31E8638E6006FBF7A /* UWFunStickerUITests.swift in Sources */,
+				AA9445211EAC648F0042F881 /* UWFunStickerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA178BB51E8638E6006FBF7A /* PBXTargetDependency */ = {
+		AA9445131EAC648F0042F881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA178B9E1E8638E5006FBF7A /* UWFunSticker */;
-			targetProxy = AA178BB41E8638E6006FBF7A /* PBXContainerItemProxy */;
+			target = AA9444FC1EAC648F0042F881 /* UWFunSticker */;
+			targetProxy = AA9445121EAC648F0042F881 /* PBXContainerItemProxy */;
 		};
-		AA178BC01E8638E6006FBF7A /* PBXTargetDependency */ = {
+		AA94451E1EAC648F0042F881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA178B9E1E8638E5006FBF7A /* UWFunSticker */;
-			targetProxy = AA178BBF1E8638E6006FBF7A /* PBXContainerItemProxy */;
+			target = AA9444FC1EAC648F0042F881 /* UWFunSticker */;
+			targetProxy = AA94451D1EAC648F0042F881 /* PBXContainerItemProxy */;
 		};
-		AA178BD81E863ADC006FBF7A /* PBXTargetDependency */ = {
+		AA9445401EAC6E700042F881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA178BD11E863ADC006FBF7A /* UWFunStickerExtension */;
-			targetProxy = AA178BD71E863ADC006FBF7A /* PBXContainerItemProxy */;
+			target = AA9445391EAC6E700042F881 /* UWFunStickerExtension */;
+			targetProxy = AA94453F1EAC6E700042F881 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA178BA61E8638E5006FBF7A /* Main.storyboard */ = {
+		AA9445041EAC648F0042F881 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA178BA71E8638E5006FBF7A /* Base */,
+				AA9445051EAC648F0042F881 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AA178BAB1E8638E5006FBF7A /* LaunchScreen.storyboard */ = {
+		AA9445091EAC648F0042F881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA178BAC1E8638E5006FBF7A /* Base */,
+				AA94450A1EAC648F0042F881 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -415,7 +407,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AA178BC51E8638E6006FBF7A /* Debug */ = {
+		AA9445231EAC648F0042F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		AA178BC61E8638E6006FBF7A /* Release */ = {
+		AA9445241EAC648F0042F881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -508,7 +500,7 @@
 			};
 			name = Release;
 		};
-		AA178BC81E8638E6006FBF7A /* Debug */ = {
+		AA9445261EAC648F0042F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -521,7 +513,7 @@
 			};
 			name = Debug;
 		};
-		AA178BC91E8638E6006FBF7A /* Release */ = {
+		AA9445271EAC648F0042F881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -534,7 +526,7 @@
 			};
 			name = Release;
 		};
-		AA178BCB1E8638E6006FBF7A /* Debug */ = {
+		AA9445291EAC648F0042F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,7 +541,7 @@
 			};
 			name = Debug;
 		};
-		AA178BCC1E8638E6006FBF7A /* Release */ = {
+		AA94452A1EAC648F0042F881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,7 +556,7 @@
 			};
 			name = Release;
 		};
-		AA178BCE1E8638E6006FBF7A /* Debug */ = {
+		AA94452C1EAC648F0042F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -578,7 +570,7 @@
 			};
 			name = Debug;
 		};
-		AA178BCF1E8638E6006FBF7A /* Release */ = {
+		AA94452D1EAC648F0042F881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -592,25 +584,25 @@
 			};
 			name = Release;
 		};
-		AA178BDB1E863ADC006FBF7A /* Debug */ = {
+		AA9445431EAC6E700042F881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = Q9CMR7969T;
-				INFOPLIST_FILE = UWFunStickerExtension/StickerInfo.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.extension;
+				INFOPLIST_FILE = UWFunStickerExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.UWFunStickerExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		AA178BDC1E863ADC006FBF7A /* Release */ = {
+		AA9445441EAC6E700042F881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				DEVELOPMENT_TEAM = Q9CMR7969T;
-				INFOPLIST_FILE = UWFunStickerExtension/StickerInfo.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.extension;
+				INFOPLIST_FILE = UWFunStickerExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brucekhin.uwfunsticker.UWFunStickerExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -619,52 +611,48 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA178B9A1E8638E5006FBF7A /* Build configuration list for PBXProject "UWFunSticker" */ = {
+		AA9444F81EAC648F0042F881 /* Build configuration list for PBXProject "UWFunSticker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA178BC51E8638E6006FBF7A /* Debug */,
-				AA178BC61E8638E6006FBF7A /* Release */,
+				AA9445231EAC648F0042F881 /* Debug */,
+				AA9445241EAC648F0042F881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA178BC71E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunSticker" */ = {
+		AA9445251EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunSticker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA178BC81E8638E6006FBF7A /* Debug */,
-				AA178BC91E8638E6006FBF7A /* Release */,
+				AA9445261EAC648F0042F881 /* Debug */,
+				AA9445271EAC648F0042F881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AA178BCA1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerTests" */ = {
+		AA9445281EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA178BCB1E8638E6006FBF7A /* Debug */,
-				AA178BCC1E8638E6006FBF7A /* Release */,
+				AA9445291EAC648F0042F881 /* Debug */,
+				AA94452A1EAC648F0042F881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AA178BCD1E8638E6006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerUITests" */ = {
+		AA94452B1EAC648F0042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA178BCE1E8638E6006FBF7A /* Debug */,
-				AA178BCF1E8638E6006FBF7A /* Release */,
+				AA94452C1EAC648F0042F881 /* Debug */,
+				AA94452D1EAC648F0042F881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AA178BDA1E863ADC006FBF7A /* Build configuration list for PBXNativeTarget "UWFunStickerExtension" */ = {
+		AA9445421EAC6E700042F881 /* Build configuration list for PBXNativeTarget "UWFunStickerExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA178BDB1E863ADC006FBF7A /* Debug */,
-				AA178BDC1E863ADC006FBF7A /* Release */,
+				AA9445431EAC6E700042F881 /* Debug */,
+				AA9445441EAC6E700042F881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA178B971E8638E5006FBF7A /* Project object */;
+	rootObject = AA9444F51EAC648F0042F881 /* Project object */;
 }

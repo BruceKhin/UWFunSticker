@@ -1,13 +1,37 @@
 {
   "stickers" : [
     {
+      "filename" : "dive_flag.sticker"
+    },
+    {
       "filename" : "1.  DiverDown.sticker"
     },
     {
-      "filename" : "2.  Nitrox.sticker"
+      "filename" : "shark.sticker"
     },
     {
       "filename" : "3.  ScubaBuddy.sticker"
+    },
+    {
+      "filename" : "1A-SNSIYellow.sticker"
+    },
+    {
+      "filename" : "qaqqq-1.sticker"
+    },
+    {
+      "filename" : "1C-ScubaTEC.sticker"
+    },
+    {
+      "filename" : "1A-SCUBA.sticker"
+    },
+    {
+      "filename" : "1B-MOLLY'S.sticker"
+    },
+    {
+      "filename" : "qaqqq.sticker"
+    },
+    {
+      "filename" : "2.  Nitrox.sticker"
     },
     {
       "filename" : "4.  U:W Camera.sticker"
@@ -59,6 +83,9 @@
     },
     {
       "filename" : "24. Divers Weights Belt.sticker"
+    },
+    {
+      "filename" : "1B-IAAS.sticker"
     }
   ],
   "info" : {

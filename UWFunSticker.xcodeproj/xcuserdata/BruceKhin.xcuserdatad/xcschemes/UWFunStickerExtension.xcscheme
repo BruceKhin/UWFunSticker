@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA178BD11E863ADC006FBF7A"
+               BlueprintIdentifier = "AA9445391EAC6E700042F881"
                BuildableName = "UWFunStickerExtension.appex"
                BlueprintName = "UWFunStickerExtension"
                ReferencedContainer = "container:UWFunSticker.xcodeproj">
@@ -29,7 +29,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA178B9E1E8638E5006FBF7A"
+               BlueprintIdentifier = "AA9444FC1EAC648F0042F881"
                BuildableName = "UWFunSticker.app"
                BlueprintName = "UWFunSticker"
                ReferencedContainer = "container:UWFunSticker.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA178BD11E863ADC006FBF7A"
+            BlueprintIdentifier = "AA9445391EAC6E700042F881"
             BuildableName = "UWFunStickerExtension.appex"
             BlueprintName = "UWFunStickerExtension"
             ReferencedContainer = "container:UWFunSticker.xcodeproj">
@@ -71,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA178B9E1E8638E5006FBF7A"
+            BlueprintIdentifier = "AA9444FC1EAC648F0042F881"
             BuildableName = "UWFunSticker.app"
             BlueprintName = "UWFunSticker"
             ReferencedContainer = "container:UWFunSticker.xcodeproj">
@@ -91,7 +91,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA178B9E1E8638E5006FBF7A"
+            BlueprintIdentifier = "AA9444FC1EAC648F0042F881"
             BuildableName = "UWFunSticker.app"
             BlueprintName = "UWFunSticker"
             ReferencedContainer = "container:UWFunSticker.xcodeproj">

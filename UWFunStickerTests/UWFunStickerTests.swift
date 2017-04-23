@@ -2,7 +2,7 @@
 //  UWFunStickerTests.swift
 //  UWFunStickerTests
 //
-//  Created by Bruce Khin on 24/03/2017.
+//  Created by Bruce Khin on 2017-04-22.
 //  Copyright © 2017 Bruce Khin. All rights reserved.
 //
 
